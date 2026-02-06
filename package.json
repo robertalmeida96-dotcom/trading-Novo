@@ -1,0 +1,28 @@
+{
+  "name": "trading-pro-firebase",
+  "version": "3.0.0",
+  "description": "Sistema de gestão de trading com sincronização Firebase",
+  "main": "public/index.html",
+  "scripts": {
+    "serve": "firebase serve",
+    "deploy": "firebase deploy",
+    "deploy:hosting": "firebase deploy --only hosting",
+    "deploy:firestore": "firebase deploy --only firestore",
+    "logs": "firebase functions:log",
+    "open": "firebase open hosting:site",
+    "init": "firebase init",
+    "login": "firebase login"
+  },
+  "keywords": [
+    "trading",
+    "firebase",
+    "firestore",
+    "real-time",
+    "sync"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "devDependencies": {
+    "firebase-tools": "^13.0.0"
+  }
+}
